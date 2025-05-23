@@ -110,7 +110,7 @@ python examples/test_small_agent.py
 
 ### More on `smolagents`
 
-Curious about more capabilities? Check out the [original smolagents instructions](./README_smolagents.md) for advanced usage and custom environments.
+Curious about more capabilities? Check out the [original smolagents repository](https://github.com/huggingface/smolagents) for advanced usage and custom environments.
 
 ## 🚧 Future Plan
 
