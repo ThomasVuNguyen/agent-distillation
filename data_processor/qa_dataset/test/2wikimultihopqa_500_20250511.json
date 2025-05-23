@@ -1,0 +1,4517 @@
+{
+    "metadata": {
+        "dataset_info": {
+            "name": "2wikimultihopqa",
+            "fold": "test",
+            "examples_range": {
+                "start": 0,
+                "end": 1000
+            },
+            "total_examples": 500,
+            "creation_date": "2025-05-11",
+            "filtering_criteria": null
+        }
+    },
+    "examples": [
+        {
+            "id": "10476",
+            "question": "Where does the founder of Les Films Du Losange work at?",
+            "answer": "Cahiers du cinéma",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1824",
+            "question": "Are director of film Susanna Whipped Cream and director of film Le Salamandre both from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "409",
+            "question": "Who is Wisigard's father-in-law?",
+            "answer": "Theuderic I",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12149",
+            "question": "Which country the director of film Hotel By The Hour is from?",
+            "answer": "Austria",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4506",
+            "question": "Who lived longer, Friedrich Paschen or Ernst Bessey?",
+            "answer": "Friedrich Paschen",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4012",
+            "question": "Which film has the director born later, The Fighting Demon or Blood Of The Losers?",
+            "answer": "Blood Of The Losers",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3657",
+            "question": "Who is Ieuan Ab Owain Glyndŵr's paternal grandfather?",
+            "answer": "Gruffudd Fychan II",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2286",
+            "question": "Which film has the director died later, The Life And Loves Of Tschaikovsky or Dokuz Dağın Efesi?",
+            "answer": "Dokuz Dağın Efesi",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12066",
+            "question": "What is the date of birth of Frederick Of Liege's father?",
+            "answer": "1027",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1679",
+            "question": "Where did the director of film Nalini By Day, Nancy By Night graduate from?",
+            "answer": "Mount Holyoke College",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11087",
+            "question": "Which film has the director born later, Brutti Di Notte or Bir Türk'E Gönül Verdim?",
+            "answer": "Bir Türk'E Gönül Verdim",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12135",
+            "question": "Who is Rostislav I Of Kiev's paternal grandfather?",
+            "answer": "Vladimir II Monomakh",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8935",
+            "question": "Which film has the director born later, Life Hits or It'S In The Air?",
+            "answer": "Life Hits",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1424",
+            "question": "Which film whose director is younger, A Night'S Adventure or Insaciable?",
+            "answer": "Insaciable",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9674",
+            "question": "What is the place of birth of the composer of film Men With Brooms?",
+            "answer": "Calgary",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6912",
+            "question": "Which film has the director born later, Battle Of Memories or The Wedding Of Lilli Marlene?",
+            "answer": "Battle Of Memories",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "520",
+            "question": "Where was the director of film Aylwin (Film) born?",
+            "answer": "Weston-super-Mare, Somerset",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "488",
+            "question": "Which film has the director who was born first, Hanuman Patal Vijay or Young And Dangerous: The Prequel?",
+            "answer": "Hanuman Patal Vijay",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1535",
+            "question": "Were Gotthilf Heinrich Ernst Muhlenberg and Todd Williams of the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3582",
+            "question": "What is the date of death of Peter Dale Scott's mother?",
+            "answer": "28 November 1993",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3811",
+            "question": "Where did the founder of Ford Australia die?",
+            "answer": "Dearborn",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8279",
+            "question": "Which film has the director who is older than the other, Rolling In Money or A Fine, Windy Day? ",
+            "answer": "Rolling In Money",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9863",
+            "question": "Which film has the director born later, Best Of The Best 3: No Turning Back or Ven Mi Corazón Te Llama?",
+            "answer": "Best Of The Best 3: No Turning Back",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "434",
+            "question": "Which film has the director who died later, The Death Kiss or Her Luck In London?",
+            "answer": "Her Luck In London",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9195",
+            "question": "When did Joanna Of Aragon, Countess Of Foix's mother die?",
+            "answer": "23 October 1378",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3257",
+            "question": "Which film whose director is younger, Hell To Pay (2014 Film) or Darwin'S Nightmare?",
+            "answer": "Darwin'S Nightmare",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11731",
+            "question": "Which film has the director who was born later, Así En El Cielo Como En La Tierra or Buck And The Preacher?",
+            "answer": "Así En El Cielo Como En La Tierra",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10647",
+            "question": "What is the date of death of Philibert I, Duke Of Savoy's mother?",
+            "answer": "23 August 1478",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11490",
+            "question": "Which country Count Of St. Germain's father is from?",
+            "answer": "Hungarian",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8928",
+            "question": "Where was the director of film He'S A Cockeyed Wonder born?",
+            "answer": "London",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6873",
+            "question": "Which film has the director died first, Köpekler Adası or Twisted Mistress?",
+            "answer": "Twisted Mistress",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3611",
+            "question": "Which award the composer of film Howrah Bridge (Film) earned?",
+            "answer": "Filmfare Award",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7359",
+            "question": "Which film came out earlier, Der Wixxer or The Butterfly Room?",
+            "answer": "Der Wixxer",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9654",
+            "question": "Where was the husband of Wilhelmine Of Prussia, Margravine Of Brandenburg-Bayreuth born?",
+            "answer": "Weferlingen",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4557",
+            "question": "Where did the director of film Things Behind The Sun study?",
+            "answer": "UCLA School of Theater, Film and Television",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "106",
+            "question": "Are the movies About A Wife, A Dream And Another... and The Doolins Of Oklahoma, from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12432",
+            "question": "Which film was released first, My Friend Pinto or Vindhyarani?",
+            "answer": "Vindhyarani",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2615",
+            "question": "Was Ausaf Ali or Steven Perry born first?",
+            "answer": "Ausaf Ali",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11438",
+            "question": "What is the place of birth of Aurelio De Laurentiis's father?",
+            "answer": "Torre Annunziata",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6924",
+            "question": "Where was the founder of magazine Amazing Stories born?",
+            "answer": "Luxembourgish",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5574",
+            "question": "Where did Crow Foot's father die?",
+            "answer": "United States",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4552",
+            "question": "Who is Amalie Adlerberg's stepfather?",
+            "answer": "Karl Alexander, 5th Prince of Thurn and Taxis",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2547",
+            "question": "Which film whose director is younger, Outlaw King or Gunman'S Walk?",
+            "answer": "Outlaw King",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3527",
+            "question": "Which film was released more recently, Scandal At The Girls' School or One Dangerous Night?",
+            "answer": "Scandal At The Girls' School",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12509",
+            "question": "Which country Ronald Dewolf's father is from?",
+            "answer": "American",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5514",
+            "question": "Where was the place of death of the director of film Romulus And The Sabines?",
+            "answer": "Le Plessis-Bouchard",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1674",
+            "question": "What is the place of birth of the director of film The Return Of Swamp Thing?",
+            "answer": "New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1519",
+            "question": "Who is the father of the director of film The Thousand Faces Of Dunjia?",
+            "answer": "Yuen Siu-tien",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6224",
+            "question": "Which film has the director who is older, Aardram or Land And Freedom?",
+            "answer": "Land And Freedom",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1584",
+            "question": "Which film came out first, Stella'S Oorlog or Sampathige Savaal?",
+            "answer": "Sampathige Savaal",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5881",
+            "question": "Who was born later, Jean-Jacques Rousseau or Richard Cawley?",
+            "answer": "Richard Cawley",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5635",
+            "question": "Where did the director of film Journal Of A Crime die?",
+            "answer": "New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9891",
+            "question": "What is the place of birth of the director of film Growing Up Smith?",
+            "answer": "Melbourne",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4333",
+            "question": "What is the place of birth of the composer of song Bullet (Misfits Song)?",
+            "answer": "Lodi, New Jersey",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "711",
+            "question": "What nationality is Prince Napoléon Bonaparte's father?",
+            "answer": "French",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11955",
+            "question": "Where was the place of death of the director of film Sensational Janine?",
+            "answer": "Gräfelfing",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7527",
+            "question": "What is the date of death of Charles Mills, 1St Baron Hillingdon's father?",
+            "answer": "4 October 1872",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8785",
+            "question": "Do the movies Seven Sinners (1936 Film) and Everyday (Film), originate from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2045",
+            "question": "Which film has the director born later, Occhio, Malocchio, Prezzemolo E Finocchio or Jailhouse Rock (Film)?",
+            "answer": "Occhio, Malocchio, Prezzemolo E Finocchio",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6201",
+            "question": "What is the place of birth of Henrik Selberg's father?",
+            "answer": "Flora",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1291",
+            "question": "Where did M. K. Muthu's father die?",
+            "answer": "kauvery hospital",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9044",
+            "question": "Who is the paternal grandfather of James Fitzgerald, 8Th Earl Of Desmond?",
+            "answer": "James FitzGerald, 6th Earl of Desmond",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4803",
+            "question": "Which film has the director who was born later, Attack Of Life: The Bang Tango Movie or King Kong (2005 Film)?",
+            "answer": "Attack Of Life: The Bang Tango Movie",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10299",
+            "question": "Where did Niklas Frank's father die?",
+            "answer": "Nuremberg",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10133",
+            "question": "Who is Mary Of Bourbon's paternal grandfather?",
+            "answer": "Francis",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5925",
+            "question": "Who is the paternal grandfather of Diarmait Ua Briain?",
+            "answer": "Tadc mac Briain",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9459",
+            "question": "Where did the director of film Search And Destroy (1995 Film) study?",
+            "answer": "California Institute of the Arts",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3150",
+            "question": "What is the place of birth of the director of film Pages Of Life (Film)?",
+            "answer": "Concepción",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11543",
+            "question": "Who is the paternal grandfather of Uskhal Khan Tögüs Temür?",
+            "answer": "Khutughtu Khan",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1139",
+            "question": "Where did the director of film Carbon (Film) study?",
+            "answer": "Film and Television Institute of India",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "750",
+            "question": "Who is the paternal grandmother of Renaud Iii, Count Of Soissons?",
+            "answer": "Adelaide, Countess of Soissons",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10834",
+            "question": "Who is Sultan Hatun's mother-in-law?",
+            "answer": "Emine Hatun",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3733",
+            "question": "What is the place of birth of Geoffrey Plantagenet, Count Of Anjou's wife?",
+            "answer": "Westminster",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4741",
+            "question": "Where was the director of film War Of The Buttons (1994 Film) born?",
+            "answer": "Buffalo, New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1307",
+            "question": "Which film was released more recently, Sacred Silence or Ek Haseena Thi Ek Deewana Tha?",
+            "answer": "Ek Haseena Thi Ek Deewana Tha",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3814",
+            "question": "When did Thomas Knox, 3Rd Earl Of Ranfurly's father die?",
+            "answer": "21 March 1858",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1654",
+            "question": "Do the bands The Gordons (Duo) and Sacred Rite (Band), originate from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6227",
+            "question": "Who is Antoine-Charles Taschereau's paternal grandfather?",
+            "answer": "Thomas-Jacques Taschereau",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4554",
+            "question": "Do both films Masters Of The Sea (Film) and The Auction Mart have the directors from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7428",
+            "question": "Who is the spouse of the composer of film Kalle Stropp, Grodan Boll Och Deras Vänner?",
+            "answer": "Eva Funck",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10415",
+            "question": "Do both directors of films The Curse Of Iku and Cops And Robbers (1973 Film) have the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5977",
+            "question": "Where was the wife of Otto I, Count Of Guelders born?",
+            "answer": "Kelheim",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2664",
+            "question": "Who is younger, Zhang Lifang or Lalengzama Vangchhia?",
+            "answer": "Lalengzama Vangchhia",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6065",
+            "question": "Where was the place of death of Thomas Sheridan (Soldier)'s father?",
+            "answer": "London",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5820",
+            "question": "Which film whose director is younger, A Social Celebrity or A Sound Of Trumpets?",
+            "answer": "A Sound Of Trumpets",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3432",
+            "question": "What is the date of death of the founder of Suez Canal Company?",
+            "answer": "7 December 1894",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10980",
+            "question": "Which film came out first, João Da Mata or Beautiful Girls (Film)?",
+            "answer": "João Da Mata",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4374",
+            "question": "Who is younger, Empress Xiaoshurui or Goran Veselinovski?",
+            "answer": "Goran Veselinovski",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11498",
+            "question": "Which film has the director who was born later, Budak Nafsu or The Bilingual Lover?",
+            "answer": "Budak Nafsu",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11199",
+            "question": "Where was the director of film Mark (Film) born?",
+            "answer": "Toronto",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10617",
+            "question": "Who is the maternal grandfather of Princess Alexandra Of Hanover (Born 1999)?",
+            "answer": "Rainier III, Prince of Monaco",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1169",
+            "question": "Are both Alex Bregman and Francesca Sterlacci from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9980",
+            "question": "Which film has the director who was born later, Aloha, Bobby And Rose or The Elusive Avengers?",
+            "answer": "Aloha, Bobby And Rose",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10403",
+            "question": "What nationality is the performer of song Pareho Tayo?",
+            "answer": "Filipino",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2803",
+            "question": "Are the directors of both films Captain Calamity (Film) and Heaven Only Knows (Film) from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8751",
+            "question": "Which film has the director died later, The Man From Lost River or Mcveagh Of The South Seas?",
+            "answer": "The Man From Lost River",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11946",
+            "question": "Which film whose director is younger, Return Of The Hero or Home In Indiana?",
+            "answer": "Return Of The Hero",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4010",
+            "question": "Which film has the director died earlier, Crime Against Joe or Vagabonderne På Bakkegården?",
+            "answer": "Vagabonderne På Bakkegården",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2677",
+            "question": "Who is the maternal grandmother of Flavia Julia Constantia?",
+            "answer": "Eutropia",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7573",
+            "question": "Who is the paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg?",
+            "answer": "Countess Amalie Henriette of Solms-Baruth",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6216",
+            "question": "Which film has the director who died earlier, Slums Of Berlin or Phantom India?",
+            "answer": "Slums Of Berlin",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4422",
+            "question": "Which film has the director who was born earlier, Toto In Paris or The Railroad Man?",
+            "answer": "Toto In Paris",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10485",
+            "question": "Do both films King Uncle and Kanyaka (Film) have the directors from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11274",
+            "question": "Where was the place of death of Anne Devereux's husband?",
+            "answer": "Banbury",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9125",
+            "question": "Who is Augustus Berkeley, 4Th Earl Of Berkeley's maternal grandmother?",
+            "answer": "Anne Brudenell",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3598",
+            "question": "Who is the paternal grandfather of Chiang Hsiao-Wu?",
+            "answer": "Chiang Kai-shek",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11216",
+            "question": "Which museum was founded first, Casoria Contemporary Art Museum or Leverian Collection?",
+            "answer": "Leverian Collection",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5313",
+            "question": "Which film has the director died later, The Big Cube or Rangila Ratan?",
+            "answer": "Rangila Ratan",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "916",
+            "question": "Which film has the director who was born later, I'Ll Take Sweden or His Majesty, The American?",
+            "answer": "I'Ll Take Sweden",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3752",
+            "question": "Which film has the director who is older, A Medal For Benny or King Of Chinatown?",
+            "answer": "A Medal For Benny",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "525",
+            "question": "What nationality is Julia Parker (Astrologer)'s husband?",
+            "answer": "British",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5168",
+            "question": "Are the directors of films Who Are You, Polly Maggoo? and Mother Night (Film) both from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6572",
+            "question": "Which film was released more recently, Fine Dead Girls or Venussian Tabutasco?",
+            "answer": "Venussian Tabutasco",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4386",
+            "question": "Do both films, Humko Deewana Kar Gaye and Dozakh In Search Of Heaven, have the directors who are from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1084",
+            "question": "Who lived longer, Neil Lloyd Macky or Domenico Cosselli?",
+            "answer": "Neil Lloyd Macky",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3456",
+            "question": "Which film has the director born earlier, Farfallon or Man On The Tracks?",
+            "answer": "Man On The Tracks",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9292",
+            "question": "Which film has the director who was born earlier, Legend Of The Inca Bridge or Gangs Of New York?",
+            "answer": "Legend Of The Inca Bridge",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11762",
+            "question": "Which film has the director died later, Romeo, Juliet And Darkness or I Can Explain?",
+            "answer": "Romeo, Juliet And Darkness",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5155",
+            "question": "What is the place of birth of the director of film Alien From L.A.?",
+            "answer": "Hawaii",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3483",
+            "question": "Which film has the director who was born first, The Gigolos or More About The Children Of Noisy Village?",
+            "answer": "More About The Children Of Noisy Village",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10738",
+            "question": "Where was the director of film The Planet (Film) born?",
+            "answer": "Bollnäs",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8179",
+            "question": "Are both Caracu River and South Fork Rogue River located in the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6482",
+            "question": "Are Guancangping Railway Station and Yangquan North Railway Station both located in the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10532",
+            "question": "When was the director of film I Want Someone To Eat Cheese With born?",
+            "answer": "June 5, 1962",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7517",
+            "question": "Which album was released earlier, American Tunes or I'M In Love Again?",
+            "answer": "I'M In Love Again",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2340",
+            "question": "Where was the mother of Maria Of Jülich-Berg born?",
+            "answer": "Ansbach",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4339",
+            "question": "Where did Baha Al-Dawla's father die?",
+            "answer": "Baghdad",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2287",
+            "question": "Who is the spouse of the director of film Fire-Eater (Film)?",
+            "answer": "Pirkko Saisio",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4040",
+            "question": "Which film was released more recently, Paul Temple'S Triumph or The Quick And The Undead?",
+            "answer": "The Quick And The Undead",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12205",
+            "question": "Do both films The Dust Of Naples and Col Cuore In Gola have the directors that share the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9197",
+            "question": "Which film came out earlier, La Marca De Satanás or Sofia'S Last Ambulance?",
+            "answer": "La Marca De Satanás",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8830",
+            "question": "Which film has the director born earlier, High Society Blues or Counterblast?",
+            "answer": "Counterblast",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4304",
+            "question": "Where was the place of death of the composer of song Hail, Hail, The Gang'S All Here?",
+            "answer": "London",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12239",
+            "question": "Are Justine Lupe and Mark Kistler both from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9577",
+            "question": "Who is the spouse of the director of film Confidentially Connie?",
+            "answer": "Ona Munson",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7019",
+            "question": "Which award the performer of song Constantemente Mía got?",
+            "answer": "Sanremo Music Festival",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9560",
+            "question": "Which film has the director who died later, The Devil And Miss Jones or The Man In The Funny Suit?",
+            "answer": "The Man In The Funny Suit",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6543",
+            "question": "What nationality is the performer of song Gone Fishin' (Song)?",
+            "answer": "America",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5930",
+            "question": "Who is the spouse of the director of film The Thin Line (1980 Film)?",
+            "answer": "Moshé Mizrahi",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3593",
+            "question": "Who lived longer, Octavius Hammond or Curumsey Damjee?",
+            "answer": "Curumsey Damjee",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2266",
+            "question": "Do both directors of films The Wrath Of Silence and Legend Of The Fox have the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8348",
+            "question": "Who was born later, Park So-Jin or Joseph M. Pettit?",
+            "answer": "Park So-Jin",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8085",
+            "question": "Which film was released first, Taxi! or What'S Your Hurry??",
+            "answer": "What'S Your Hurry?",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1489",
+            "question": "Who was born later, Narayana Kasturi or Sigismund Toduță?",
+            "answer": "Sigismund Toduță",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12382",
+            "question": "Which school was founded first, Colegio Israelita De México or Waldorf University?",
+            "answer": "Waldorf University",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "771",
+            "question": "Where does the director of film The Witnesses work at?",
+            "answer": "Cahiers du cinéma",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1796",
+            "question": "Who is Myat Phaya's maternal grandmother?",
+            "answer": "Hsinbyumashin",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2504",
+            "question": "Who is Badi-Al Zaman Mirza Safavi's mother-in-law?",
+            "answer": "Sultan-Agha Khanum",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10280",
+            "question": "Which film was released more recently, Secret Of St. Job Forest or Kenny Begins?",
+            "answer": "Kenny Begins",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2621",
+            "question": "Who is Eleanor Of Aragon, Countess Of Toulouse's paternal grandfather?",
+            "answer": "Ramon Berenguer IV",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11149",
+            "question": "Do the movies Before The Streets and Buchanan Rides Alone, originate from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6916",
+            "question": "Where was the place of death of the director of film Curse Of The Crimson Altar?",
+            "answer": "Durban, South Africa",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9771",
+            "question": "Which film was released more recently, The Singing Fool or La Ragazzola?",
+            "answer": "La Ragazzola",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1040",
+            "question": "Which film has the director who died earlier, Naa Mechida Huduga or The Countess Died Of Laughter?",
+            "answer": "The Countess Died Of Laughter",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6304",
+            "question": "Who is the paternal grandfather of Margaret Drummond (Mistress)?",
+            "answer": "Sir Malcolm Drummond of Cargill",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6252",
+            "question": "Who is the paternal grandmother of Edward Despenser, 1St Baron Despenser?",
+            "answer": "Eleanor de Clare",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9763",
+            "question": "Which film has the director who was born first, Angel And The Badman or Happy Days In Aranjuez?",
+            "answer": "Happy Days In Aranjuez",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7668",
+            "question": "Where was the place of burial of Marie-Louise Loubet's husband?",
+            "answer": "Montélimar",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8669",
+            "question": "Which film whose director is younger, The Last Face or The Jackhammer Massacre?",
+            "answer": "The Last Face",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4119",
+            "question": "Which film whose director was born first, Maker Of Men or Kentucky Kernels?",
+            "answer": "Maker Of Men",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9064",
+            "question": "Who is the father of the performer of song Don'T Touch My Hair?",
+            "answer": "Mathew Knowles",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "188",
+            "question": "Where did the director of film Desolation Angels (1995 Film) graduate from?",
+            "answer": "State University of New York at Purchase",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11145",
+            "question": "What is the place of birth of the director of film I'M Not Mata Hari?",
+            "answer": "Madrid",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11808",
+            "question": "What is the award that the director of film Napoleon (1995 Film) got?",
+            "answer": "Emmy Award",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1876",
+            "question": "Which film has the director who was born first, The Girl In 419 or Dunked In The Deep?",
+            "answer": "The Girl In 419",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11169",
+            "question": "Was Recep Çetin or Kim Ho born first?",
+            "answer": "Kim Ho",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8797",
+            "question": "Who is Robert Vere Buxton's paternal grandfather?",
+            "answer": "Sir Edward Buxton, 2nd Baronet",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12302",
+            "question": "Where was the place of burial of Dovid Bornsztain's father?",
+            "answer": "Sochaczew",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4371",
+            "question": "Who was born first out of Ole Jakobsen and Finnbjörn Þorvaldsson?",
+            "answer": "Finnbjörn Þorvaldsson",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10501",
+            "question": "Who was born later, Brahima Cissé or Väinö Malmivaara?",
+            "answer": "Brahima Cissé",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5573",
+            "question": "Are The Untouchables (Film) and Meeting Venus from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1827",
+            "question": "Who is the spouse of the director of film The Golden Calf (1930 Film)?",
+            "answer": "Mary Eaton",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4808",
+            "question": "Who is Princess Adrienne, Duchess Of Blekinge's mother?",
+            "answer": "Princess Madeleine, Duchess of Hälsingland and Gästrikland",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7123",
+            "question": "Which film was released more recently, Daredevil'S Time or Paid In Error?",
+            "answer": "Daredevil'S Time",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2591",
+            "question": "Where was the place of death of Teresa D'Entença's husband?",
+            "answer": "Barcelona",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7433",
+            "question": "Which film whose director is younger, I Was A Student At Heidelberg or Deadly Eyes?",
+            "answer": "Deadly Eyes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "53",
+            "question": "Where does the director of film Man At Bath work at?",
+            "answer": "Cahiers du cinéma",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11830",
+            "question": "Where did the director of film The Marihuana Story die?",
+            "answer": "Madrid",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11791",
+            "question": "Which film came out earlier, Hell And Back Again or Buster & Chauncey'S Silent Night?",
+            "answer": "Buster & Chauncey'S Silent Night",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4315",
+            "question": "Where was the husband of Emily Davenport born?",
+            "answer": "Williamstown, Vermont",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8201",
+            "question": "What is the place of birth of the director of film Dollar (1938 Film)?",
+            "answer": "Helsingfors",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12483",
+            "question": "Which film has the director who is older than the other, The Man With The Glass Eye or The Pom Pom Girls? ",
+            "answer": "The Man With The Glass Eye",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2927",
+            "question": "Which film has the director died earlier, The Nun And The Devil or Aladdin'S Other Lamp?",
+            "answer": "Aladdin'S Other Lamp",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8317",
+            "question": "Who is Shamsher Bahadur I (Krishna Rao)'s maternal grandfather?",
+            "answer": "Chhatrasal",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1743",
+            "question": "Who died later, Giovanni Dei Conti Di Segni or Sakari Simelius?",
+            "answer": "Sakari Simelius",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10244",
+            "question": "Who is the child of the director of film Anna (1970 Film)?",
+            "answer": "Johan Donner",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4889",
+            "question": "Where was the director of film Everybody'S Woman born?",
+            "answer": "Saarbrücken",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10468",
+            "question": "What is the date of death of George Tryon, 1St Baron Tryon's father?",
+            "answer": "22 June 1893",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9977",
+            "question": "What is the cause of death of performer of song Just Playing (Dreams)?",
+            "answer": "drive-by shooting",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3258",
+            "question": "Where was the place of death of Flavia Domitilla (Saint)'s husband?",
+            "answer": "Roman",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6126",
+            "question": "Which album came out first, Bare Wires or Dead Vent 7?",
+            "answer": "Bare Wires",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12492",
+            "question": "Do the movies Beyond The Reach and Mondovino, originate from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2646",
+            "question": "Why did Edward Despenser (Died 1342)'s father die?",
+            "answer": "hanged, drawn and quartered",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8837",
+            "question": "Where was the father of Clara Maria Of Pomerania-Barth born?",
+            "answer": "Wolgast",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8689",
+            "question": "Are both Son Of Rambow and From Bedrooms To Billions from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9",
+            "question": "Who is the maternal grandfather of Antiochus X Eusebes?",
+            "answer": "Ptolemy IX Lathyros",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9813",
+            "question": "Are Four Eyed Monsters and Joseph And The Amazing Technicolor Dreamcoat (Film) from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5310",
+            "question": "Who was born first out of Peter Haslop and Barbara Nawratowicz?",
+            "answer": "Barbara Nawratowicz",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8005",
+            "question": "Where was the mother of Adela Of Pfalzel born?",
+            "answer": "Trier",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "319",
+            "question": "Where was the place of burial of Ælfgar, Earl Of Mercia's mother?",
+            "answer": "Coventry",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1832",
+            "question": "When was the director of film Gilbert Dying To Die born?",
+            "answer": "11 November 1887",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5947",
+            "question": "Are both Temple Adath Israel (Owensboro, Kentucky) and Catalpa Farm located in the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5038",
+            "question": "Which film has the director born first, Who Is Without Sin or Lost In The Suburbs?",
+            "answer": "Lost In The Suburbs",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3923",
+            "question": "Did Jean Goulin and Matthew Of Albano share the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "949",
+            "question": "Which film has the director born later, La Soif De L'Or or Forelsket I København?",
+            "answer": "Forelsket I København",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3946",
+            "question": "What nationality is the director of film Una Luz En Mi Camino?",
+            "answer": "Chilean",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9295",
+            "question": "What is the date of death of Patricia Thompson (Writer)'s father?",
+            "answer": "14 April 1930",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1290",
+            "question": "What nationality is George I, Landgrave Of Hesse-Darmstadt's mother?",
+            "answer": "German",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1403",
+            "question": "Which film has the director who died earlier, The Cruel Truth or The Deadly Companions?",
+            "answer": "The Cruel Truth",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11991",
+            "question": "Which film has the director died first, Kid With The Golden Arm or Corazón De Criolla?",
+            "answer": "Corazón De Criolla",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7962",
+            "question": "What is the place of birth of the performer of song Somebody Slap Me?",
+            "answer": "Apopka",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1133",
+            "question": "Where was the place of death of the founder of Western Auto?",
+            "answer": "California",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12461",
+            "question": "Which film was released first, The Borrower or Sheba, Baby?",
+            "answer": "Sheba, Baby",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8727",
+            "question": "Who was born first, Willi Billmann or Henry Oliver Walker?",
+            "answer": "Henry Oliver Walker",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12547",
+            "question": "Which country the founder of St James Holdings is from?",
+            "answer": "British",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2060",
+            "question": "Who is the father of the director of film The Cup (1999 Film)?",
+            "answer": "Thinley Norbu",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2103",
+            "question": "Where did Margaret Of Bar's father die?",
+            "answer": "Gaza",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10809",
+            "question": "What nationality is the director of film Agent X44?",
+            "answer": "Philippines",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7787",
+            "question": "Which film was released more recently, Shanghai Dreams or Canadian Mounties Vs. Atomic Invaders?",
+            "answer": "Shanghai Dreams",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9007",
+            "question": "Who is the spouse of the performer of song Et Moi, Et Moi, Et Moi?",
+            "answer": "Françoise Hardy",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2705",
+            "question": "Where was the place of death of Topa Inca Yupanqui's father?",
+            "answer": "Cusco",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4342",
+            "question": "Which film has the director born later, We Go Fast or How To Succeed With Sex?",
+            "answer": "How To Succeed With Sex",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8645",
+            "question": "When was Ebba Busch Thor's husband born?",
+            "answer": "21 February 1986",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9938",
+            "question": "Which film was released first, A Little Bit Zombie or Carolyn Of The Corners?",
+            "answer": "Carolyn Of The Corners",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6932",
+            "question": "What is the place of birth of the director of film Little Darlings?",
+            "answer": "Clifton",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3470",
+            "question": "Who died later, Pierre Lemonnier or Hasanaga Sadigov?",
+            "answer": "Hasanaga Sadigov",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8835",
+            "question": "Are Robin Lynn Macy and Kawaipuna Prejean of the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12374",
+            "question": "Where was the place of death of Allah Verdi Mirza Farman Farmaian's father?",
+            "answer": "Tehran",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11959",
+            "question": "Who is the mother-in-law of Ursula Pole, Baroness Stafford?",
+            "answer": "Eleanor Percy, Duchess of Buckingham",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11302",
+            "question": "Which film was released earlier, Junda Iman Gunda or Overheard 3?",
+            "answer": "Junda Iman Gunda",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3295",
+            "question": "Are both bands, The Church (Band) and Kookies N Kream, from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11680",
+            "question": "Who is Donnchadh Iv, Earl Of Fife's father-in-law?",
+            "answer": "Ralph de Monthermer",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5107",
+            "question": "Which film was released more recently, The Silver Trail or Raja Nandini?",
+            "answer": "Raja Nandini",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6537",
+            "question": "Who is younger, Curuppumullage Jinarajadasa or W. K. Mcneil?",
+            "answer": "W. K. Mcneil",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11004",
+            "question": "Where does Andy Smith (Entrepreneur)'s wife work at?",
+            "answer": "Stanford",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6118",
+            "question": "Who is the father of the performer of song Still (Tim Mcgraw Song)?",
+            "answer": "Tug McGraw",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7177",
+            "question": "When did Augustus Henry Seward's mother die?",
+            "answer": "June 21, 1865",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8479",
+            "question": "Where was the place of death of the director of film The Great Jewel Robber?",
+            "answer": "Hollywood",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7397",
+            "question": "Where was the place of burial of Michael Wayne's father?",
+            "answer": "California",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1982",
+            "question": "Are both villages, Chausy, Bryansk Oblast and Lyapunovo, located in the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4061",
+            "question": "Are the directors of both films The Snake Brothers and Kooky from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3681",
+            "question": "Do both The Paris Waltz and Gibraltar (1964 Film) films have the directors from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1049",
+            "question": "Who is the spouse of the director of film The Dressmaker From Paris?",
+            "answer": "Jean Harlow",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5539",
+            "question": "What nationality is the director of film On The Trail Of Igor Rizzi?",
+            "answer": "French",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "344",
+            "question": "Where did the composer of film The Merry Monahans die?",
+            "answer": "Studio City",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9638",
+            "question": "Where did the director of film Baree, Son Of Kazan (1918 Film) die?",
+            "answer": "Santa Barbara, California",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9075",
+            "question": "What is the date of death of the director of film Det Kunne Vært Deg?",
+            "answer": "14 July 2008",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3770",
+            "question": "Which film was released more recently, Bhanwarey or Harlem Nights?",
+            "answer": "Bhanwarey",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9641",
+            "question": "Are both movies, A Thousand Stars Aglitter and Wild (2016 Film), from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3608",
+            "question": "Who is Magdalene Of Jülich-Cleves-Berg's father-in-law?",
+            "answer": "Wolfgang, Count Palatine of Zweibrücken",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "117",
+            "question": "When did Lord Patrick Crichton-Stuart's father die?",
+            "answer": "22 January 1794",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1163",
+            "question": "Where did the director of film What Rats Won'T Do die?",
+            "answer": "Somerset",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11597",
+            "question": "Where did the founder of Versus (Versace) die?",
+            "answer": "Miami Beach",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10339",
+            "question": "What is the place of birth of the director of film The Finger Points?",
+            "answer": "New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "964",
+            "question": "Who was born later, Paolo Marcellini or Dean Evans?",
+            "answer": "Dean Evans",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3750",
+            "question": "What is the date of death of Andrew, Duke Of Slavonia's father?",
+            "answer": "6 August 1272",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1104",
+            "question": "Did Dwight Harwood and Velvet (Singer) have the same nationality?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "514",
+            "question": "What is the place of birth of the director of film My Country'S Wings?",
+            "answer": "Valparaíso",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5413",
+            "question": "Who died later, Claude Bramall Burgess or Karl Neukirch?",
+            "answer": "Claude Bramall Burgess",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1160",
+            "question": "Where did Princess Margarita Of Greece And Denmark's mother die?",
+            "answer": "Buckingham Palace",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8423",
+            "question": "Which film has the director who was born later, Chithiram Pesuthadi 2 or Five Million Look For An Heir?",
+            "answer": "Chithiram Pesuthadi 2",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3899",
+            "question": "Which film has the director who was born later, The Voice Of My City or The Rental?",
+            "answer": "The Rental",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4562",
+            "question": "Which film came out first, Time Lock or Blood On Wolf Mountain?",
+            "answer": "Blood On Wolf Mountain",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10960",
+            "question": "Where was the father of Frederik, Crown Prince Of Denmark born?",
+            "answer": "Talence",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7953",
+            "question": "Where was the place of death of the director of film The Pipes?",
+            "answer": "Přerov",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3510",
+            "question": "Who is the father-in-law of Marcus Vinicius (Consul 30)?",
+            "answer": "Germanicus",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8834",
+            "question": "Who lived longer, James A. Ryder or Arthur Kellam Tylee?",
+            "answer": "Arthur Kellam Tylee",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2167",
+            "question": "Who is Claire Annabel Caroline Grant Duff's paternal grandfather?",
+            "answer": "James Grant Duff",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11851",
+            "question": "Which film has the director born later, Night And Dawn or Arena Of Fear?",
+            "answer": "Night And Dawn",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9355",
+            "question": "Which film whose director was born first, Apartment Zero or The House By The Cemetery?",
+            "answer": "The House By The Cemetery",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9440",
+            "question": "Which film has the director who died first, The Cantabrians or Week-End In Havana?",
+            "answer": "Week-End In Havana",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7744",
+            "question": "What is the place of birth of the director of film Claustrophobia (2003 Film)?",
+            "answer": "Danvers",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3981",
+            "question": "Where was the father of Daniel Carasso born?",
+            "answer": "Salonica",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7749",
+            "question": "Which film was released more recently, Drugstore Cowboy or When The Sea Rises?",
+            "answer": "When The Sea Rises",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6669",
+            "question": "Which film has the director who was born later, The Ghosts Of Berkeley Square or Hello Caesar!?",
+            "answer": "The Ghosts Of Berkeley Square",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3119",
+            "question": "Where did Chit Mi Of Prome's husband die?",
+            "answer": "Pyay",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1545",
+            "question": "Who is younger, Sven-Ole Thorsen or Kostia Vlastos?",
+            "answer": "Sven-Ole Thorsen",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1588",
+            "question": "Which film has the director who died earlier, To See Or Not To See or Prince (1969 Film)?",
+            "answer": "To See Or Not To See",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10796",
+            "question": "Where did the director of film Walkover (Film) graduate from?",
+            "answer": "National Film School in Łódź",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7062",
+            "question": "Are the movies The Road To Divorce and Want So Much To Believe, from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5804",
+            "question": "What is the place of birth of the director of film Kiss The Sky (Film)?",
+            "answer": "Champaign, Illinois",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6939",
+            "question": "Which film whose director is younger, Sujon Sokhi or Two Thousand Maniacs!?",
+            "answer": "Sujon Sokhi",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6735",
+            "question": "Where did the director of film Q.R.R (Quien Resulte Responsable) die?",
+            "answer": "Houston, Texas",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7651",
+            "question": "Where does the director of film Looking For Hortense work at?",
+            "answer": "Cahiers du cinéma",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11945",
+            "question": "Which film was released first, Vetri Vizha or The Supporter?",
+            "answer": "Vetri Vizha",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "887",
+            "question": "Where was the composer of film Post Master born?",
+            "answer": "Karnataka",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11032",
+            "question": "What nationality is Ilghazi's father?",
+            "answer": "Seljuq empire",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10706",
+            "question": "What nationality is Infanta Mariana Victoria Of Portugal's mother?",
+            "answer": "Kingdom of Portugal",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10587",
+            "question": "Which country the director of film Yes, My Love is from?",
+            "answer": "Argentina",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1612",
+            "question": "Where was the place of burial of the director of film The Yellow Passport?",
+            "answer": "Valhalla Memorial Park Cemetery",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "993",
+            "question": "Who is the spouse of the performer of song Missing My Baby?",
+            "answer": "Chris Pérez",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6596",
+            "question": "Who is the mother-in-law of Ramiro Sánchez?",
+            "answer": "Jimena Díaz",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11931",
+            "question": "What is the date of death of Vlatko Vuković's father?",
+            "answer": "1359",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5559",
+            "question": "Are Crazy Heart and Dragon Eyes both from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1790",
+            "question": "Who is John George Ii, Duke Of Saxe-Eisenach's father-in-law?",
+            "answer": "Eberhard III, Duke of Württemberg",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4073",
+            "question": "Which film has the director who was born later, A Woman'S Case or Memoirs Of A Film Actress?",
+            "answer": "A Woman'S Case",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3139",
+            "question": "Which film has the director who died later, Lincoln In The White House or Shattered Idols?",
+            "answer": "Lincoln In The White House",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3116",
+            "question": "Which country the director of film Martin'S Day is from?",
+            "answer": "Canada",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8786",
+            "question": "Where was the father of Philip William, Prince Of Orange born?",
+            "answer": "Dillenburg",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7350",
+            "question": "Where was the place of death of the director of film National Customs?",
+            "answer": "Hong Kong",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2296",
+            "question": "Who is Landgravine Marie Louise Of Hesse-Kassel's maternal grandfather?",
+            "answer": "Jacob Kettler",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3006",
+            "question": "Where was the husband of Alma Francis born?",
+            "answer": "Belleville",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4563",
+            "question": "Who is the father of James I, Count Of Urgell?",
+            "answer": "Alfonso IV of Aragon",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7579",
+            "question": "Which film has the director who was born first, Swabhimana or Mission Allahu Akbar?",
+            "answer": "Swabhimana",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4092",
+            "question": "Which film has the director who died first, The Piper'S Price or The Blonde From Singapore?",
+            "answer": "The Piper'S Price",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1235",
+            "question": "Where was the husband of Florence Bligh, Countess Of Darnley born?",
+            "answer": "Westminster",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7260",
+            "question": "Who was born later, Federico Martín Aramburú or Aleksey Tarakanov?",
+            "answer": "Aleksey Tarakanov",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9016",
+            "question": "Was Marcos Renan De Mattos Ceschin or Perng Shaw-Jiin born first?",
+            "answer": "Perng Shaw-Jiin",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1604",
+            "question": "Who was born later, Edwin Vose Sumner Jr. or Rene Röthke?",
+            "answer": "Rene Röthke",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "828",
+            "question": "Where did the director of film The Cloister Of Martins die?",
+            "answer": "Munich",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10684",
+            "question": "Which film was released more recently, The Last Pedestrian or Stranger In Sacramento?",
+            "answer": "Stranger In Sacramento",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8856",
+            "question": "What nationality is Jehoahaz Of Israel's father?",
+            "answer": "Northern Kingdom of Israel",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "241",
+            "question": "Which film was released more recently, Gaza Ghetto or Kull The Conqueror?",
+            "answer": "Kull The Conqueror",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1528",
+            "question": "Who is the father-in-law of Helena Palaiologina, Despotess Of Serbia?",
+            "answer": "Đurađ Branković",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12346",
+            "question": "Which film has the director born first, The Long, Hot Summer or Matula?",
+            "answer": "Matula",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3872",
+            "question": "Are Rovin' Tumbleweeds and Forbidden Love (1938 Film) from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2724",
+            "question": "What is the place of birth of the performer of song Inside My Love?",
+            "answer": "Chicago",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6658",
+            "question": "Where did John I, Burgrave Of Nuremberg's father die?",
+            "answer": "Cadolzburg",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7956",
+            "question": "Who is Gisela Of Hungary's father-in-law?",
+            "answer": "Géza",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7886",
+            "question": "Which film has the director who was born first, A Letter From Ulster or Per Amore Di Cesarina?",
+            "answer": "A Letter From Ulster",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3502",
+            "question": "What nationality is Dalfi D'Alvernha's father?",
+            "answer": "France",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6570",
+            "question": "Where was the father of Benjamin Hardin Helm born?",
+            "answer": "Hardin County",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "960",
+            "question": "Where was the father of Eugene Fubini born?",
+            "answer": "Venice",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2697",
+            "question": "Which film was released earlier, Cloud Dancer or Ingmar'S Inheritance?",
+            "answer": "Ingmar'S Inheritance",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6209",
+            "question": "Are The Malfated and The Fabulous Thunderbirds both from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "35",
+            "question": "Who is the paternal grandfather of Taj Al-Dawla?",
+            "answer": "Rukn al-Dawla",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6396",
+            "question": "Where was the director of film The Boy With The X-Ray Eyes (Film) born?",
+            "answer": "Aurora, Ohio",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4345",
+            "question": "Where did the director of film Quarantine 2: Terminal graduate from?",
+            "answer": "Yale",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7454",
+            "question": "Which film has the director who was born first, Buffalo Bill In Tomahawk Territory or Lady From Lisbon?",
+            "answer": "Lady From Lisbon",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4673",
+            "question": "What is the place of birth of the director of film Six Months Of Life?",
+            "answer": "Mexican",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6930",
+            "question": "Which country the director of film Black Panthers (Film) is from?",
+            "answer": "French",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11412",
+            "question": "What is the place of birth of the director of film Sweetgrass (Film)?",
+            "answer": "Liverpool",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11968",
+            "question": "Who is Charles James Irwin Grant, 6Th Baron De Longueuil's paternal grandfather?",
+            "answer": "Captain David Alexander Grant",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9105",
+            "question": "Who is Infante Francisco De Paula, Duke Of Cádiz's father-in-law?",
+            "answer": "Francis I of the Two Sicilies",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10844",
+            "question": "When was Charles, Grand Duke Of Baden's father born?",
+            "answer": "14 February 1755",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11770",
+            "question": "Which film has the producer died first, The Flame Barrier or The Famous Mrs. Fair?",
+            "answer": "The Famous Mrs. Fair",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7973",
+            "question": "Who is the spouse of the director of film La Belle Captive?",
+            "answer": "Catherine Robbe-Grillet",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2536",
+            "question": "What is the place of birth of the director of film The Great Sensation?",
+            "answer": "Tripp County, South Dakota",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3111",
+            "question": "What nationality is Charles The Younger's father?",
+            "answer": "Carolingian Empire",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4861",
+            "question": "Who was born first, Hugo Lusardi or Juan José López-Ibor Aliño?",
+            "answer": "Juan José López-Ibor Aliño",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3566",
+            "question": "What nationality is Elizabeth Of Rhuddlan's father?",
+            "answer": "England",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "958",
+            "question": "Where was the director of film Meet Me On Broadway born?",
+            "answer": "New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9489",
+            "question": "Which country the director of film Heatseeker (Film) is from?",
+            "answer": "America",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12054",
+            "question": "Where was the father of R. Whidden Ganong born?",
+            "answer": "St. Stephen, New Brunswick",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8883",
+            "question": "When did Philip Muntz's father die?",
+            "answer": "30 July 1857",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "998",
+            "question": "Which film has the director who was born first, Wild Harvest or Thunder In The Night?",
+            "answer": "Thunder In The Night",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12254",
+            "question": "Were Don Leo Jonathan and Richard F. Kneip of the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5138",
+            "question": "Did the movies Vendetta Di Zingara and For A Few Extra Dollars, originate from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "936",
+            "question": "Which film has the director who died earlier, Love That Brute or Laughing Heirs?",
+            "answer": "Laughing Heirs",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "821",
+            "question": "Which film has the director died first, Hit Parade Of 1943 or Mr. Reeder In Room 13?",
+            "answer": "Mr. Reeder In Room 13",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9571",
+            "question": "Which film came out first, The Ex-Wife Of My Life or Wrangler'S Roost?",
+            "answer": "Wrangler'S Roost",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7811",
+            "question": "Which country Prince Mircea Of Romania's father is from?",
+            "answer": "Germany",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8238",
+            "question": "What is the place of birth of the director of film Two-Gun Caballero?",
+            "answer": "Memphis, Tennessee",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8701",
+            "question": "Who is the spouse of the director of film Looking For Hortense?",
+            "answer": "Sophie Fillières",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2579",
+            "question": "Which film whose director is younger, Private Information or My Family'S Beautiful!?",
+            "answer": "My Family'S Beautiful!",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "931",
+            "question": "Which film has the director who died later, Panam Paduthum Padu or Secret Enemies?",
+            "answer": "Panam Paduthum Padu",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8320",
+            "question": "Which film has the director died earlier, The Heiress At Coffee Dan'S or The Heart Of The Matter (Film)?",
+            "answer": "The Heiress At Coffee Dan'S",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1312",
+            "question": "Who is the spouse of the director of film Shaadi Ka Laddoo?",
+            "answer": "Mandira Bedi",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3044",
+            "question": "Who was born first out of Nikolajs Maskaļenko and Brodie Van Wagenen?",
+            "answer": "Brodie Van Wagenen",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1122",
+            "question": "Where was the place of death of the composer of song The Old Master Painter?",
+            "answer": "Nashville",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9749",
+            "question": "Which film has the director who was born first, Women He'S Undressed or The King'S Stamp?",
+            "answer": "The King'S Stamp",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1113",
+            "question": "Which film has the director born first, Betrayal From The East or The Magnificent Beast?",
+            "answer": "Betrayal From The East",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11062",
+            "question": "Which film has the director died first, Oh, Mr Porter! or An Unforgettable Summer?",
+            "answer": "Oh, Mr Porter!",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3853",
+            "question": "Which country Konrad Wolf's father is from?",
+            "answer": "East Germany",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6615",
+            "question": "Which film has the director who was born earlier, Una Storia D'Amore (1969 Film) or Ta Chvíle, Ten Okamžik?",
+            "answer": "Ta Chvíle, Ten Okamžik",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1964",
+            "question": "Where was the performer of song In Heaven born?",
+            "answer": "Missoula, Montana",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9333",
+            "question": "When did Salvador Bermúdez De Castro, 2Nd Duke Of Ripalda's father die?",
+            "answer": "11 March 1870",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4033",
+            "question": "Who is William Stanley (Battle Of Bosworth)'s mother?",
+            "answer": "Joan Goushill",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9485",
+            "question": "Where did the composer of song Moonlight Bay die?",
+            "answer": "New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9740",
+            "question": "Which album was released first, Born Villain or La La La Love Thang?",
+            "answer": "La La La Love Thang",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "651",
+            "question": "Are The Finches and She Drew The Gun both from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10147",
+            "question": "Who is younger, Harald Ludvig Westergaard or Brackin Karauria-Henry?",
+            "answer": "Brackin Karauria-Henry",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1343",
+            "question": "Where was the father of Marianus V Of Arborea born?",
+            "answer": "Sardinia",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6868",
+            "question": "Where was the place of burial of Adolphe-Philippe Caron's father?",
+            "answer": "Cimetière Notre-Dame-de-Belmont",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10770",
+            "question": "When is James Stanley, 10Th Earl Of Derby's father's birthday?",
+            "answer": "19 January 1628",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9562",
+            "question": "Where did Alden B. Dow's father study?",
+            "answer": "Case",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9260",
+            "question": "Which country Haya Bint Hussein's husband is from?",
+            "answer": "United Arab Emirates",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8565",
+            "question": "Which film has the director born later, The Abyss or Going Hollywood?",
+            "answer": "The Abyss",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5183",
+            "question": "Who is the paternal grandfather of Alexios Komnenos (Son Of Andronikos I)?",
+            "answer": "Isaac Komnenos",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4272",
+            "question": "Which film has the director who was born later, Alice Of Wonderland In Paris or The Roundabouts Of Handsome Karl?",
+            "answer": "Alice Of Wonderland In Paris",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3346",
+            "question": "Who is Eudocia (Daughter Of Valentinian Iii)'s sibling-in-law?",
+            "answer": "Olybrius",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10972",
+            "question": "Who was born first out of Felix Cicaterri and Rajiv Gandhi?",
+            "answer": "Felix Cicaterri",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11734",
+            "question": "Did Larry Godfrey and Barbara Strang share the same nationality?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5147",
+            "question": "Where was the director of film A Winter Of Cyclists born?",
+            "answer": "Irish",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3910",
+            "question": "Which film has the director who is older than the other, Melody Of Murder or City Of Blood? ",
+            "answer": "Melody Of Murder",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4351",
+            "question": "Where was the director of film In The Soup (1936 Film) born?",
+            "answer": "Weston-super-Mare, Somerset",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6484",
+            "question": "Where does Bernard Tschumi's father work at?",
+            "answer": "École polytechnique fédérale de Lausanne",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2144",
+            "question": "When was Prince Frederick William Of Solms-Braunfels's wife born?",
+            "answer": "3 March 1778",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10575",
+            "question": "Are both On A Magical Night and The Mongols (Film) from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4915",
+            "question": "Which film has the director died earlier, L'Arbre, Le Maire Et La Médiathèque or Sette Giorni All'Altro Mondo?",
+            "answer": "Sette Giorni All'Altro Mondo",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7491",
+            "question": "Are the directors of both films The Great Profile and Kim Kardashian, Superstar from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5180",
+            "question": "Which film whose director is younger, Vendredi Soir or El Santo De La Espada?",
+            "answer": "Vendredi Soir",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12318",
+            "question": "Who is the spouse of the director of film Marianne And Juliane?",
+            "answer": "Volker Schlöndorff",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1188",
+            "question": "What is the place of birth of Gwladys's husband?",
+            "answer": "Gwynllwg",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "152",
+            "question": "Where did the director of film My Heidelberg, I Can Not Forget You die?",
+            "answer": "Argentina",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7508",
+            "question": "Where did the composer of film Rajaratha graduate from?",
+            "answer": "Vidya Vikas Institute of Engineering & Technology (VVIET)",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10177",
+            "question": "What is the place of birth of the director of film Yoogan?",
+            "answer": "Kovilpatti",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9224",
+            "question": "Where was the director of film Bulletproof Heart (Film) born?",
+            "answer": "El Cajon",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1638",
+            "question": "Where did Prince Ferdinand Of Bavaria's mother die?",
+            "answer": "Munich",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1200",
+            "question": "What is the place of birth of Patricia Kennedy Lawford's father?",
+            "answer": "Boston",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8808",
+            "question": "When is the director of film The Last Dragon 's birthday?",
+            "answer": "November 10, 1938",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3492",
+            "question": "Which country Luís Of Portugal, Duke Of Beja's mother is from?",
+            "answer": "Spanish",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8288",
+            "question": "When did Cristina Rodríguez (Noble)'s father die?",
+            "answer": "10 July 1099",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2170",
+            "question": "Which film has the director born later, Paris Interlude or Mystery, Alaska?",
+            "answer": "Mystery, Alaska",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5718",
+            "question": "Which country Behter's father is from?",
+            "answer": "Khamag Mongol",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1127",
+            "question": "Which film has the director died later, The True Story Of Eskimo Nell or Flame Of Stamboul?",
+            "answer": "The True Story Of Eskimo Nell",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4002",
+            "question": "Where was the place of death of Dmitri Sheremetev's father?",
+            "answer": "Moscow",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6054",
+            "question": "What is the place of birth of the director of film The Grasp Of Greed?",
+            "answer": "New Brunswick",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4669",
+            "question": "What nationality is Sukhumala Marasri's father?",
+            "answer": "Siam",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2584",
+            "question": "Which country the director of film Vendetta (1986 Film) is from?",
+            "answer": "New Zealand",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7179",
+            "question": "Which film was released more recently, Girl Slaves Of Morgana Le Fay or Strawberry Shortcake: Rockaberry Roll?",
+            "answer": "Strawberry Shortcake: Rockaberry Roll",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8900",
+            "question": "Which film was released more recently, Son Of France or Switchmas?",
+            "answer": "Switchmas",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11526",
+            "question": "Which film has the director who was born later, The Brand Of Hate or Lady Stay Dead?",
+            "answer": "Lady Stay Dead",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4956",
+            "question": "Which film has the director who is older than the other, The Burning Moon or Ana And The Wolves? ",
+            "answer": "Ana And The Wolves",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10021",
+            "question": "Which film has the director who was born later, Three Kinds Of Heat or Stop The Wedding?",
+            "answer": "Stop The Wedding",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10714",
+            "question": "What is the award that the director of film Chantilly Lace (Film) got?",
+            "answer": "Emmys",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8666",
+            "question": "Who is Prince Jean Of Luxembourg's mother?",
+            "answer": "Princess Joséphine Charlotte of Belgium",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "128",
+            "question": "Who is the father of the director of film Red 2 (Film)?",
+            "answer": "Aldo Parisot",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10942",
+            "question": "Who died earlier, Gunnar Kulldorff or Gordon Gibson Sr.?",
+            "answer": "Gordon Gibson Sr.",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9086",
+            "question": "Which film has the director who is older, Stradivari (Film) or Darby'S Rangers?",
+            "answer": "Darby'S Rangers",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4905",
+            "question": "Where was the director of film The Girl With The Dragon Tattoo (2009 Film) born?",
+            "answer": "Denmark",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10868",
+            "question": "Are Transamerica Corporation and World Wonder Ring Stardom both located in the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1697",
+            "question": "What is the date of death of the director of film Never Fear?",
+            "answer": "3 August 1995",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2200",
+            "question": "What is the date of death of the director of film Law Of The Border?",
+            "answer": "19 November 2011",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1891",
+            "question": "Where was the director of film 33 Scenes From Life born?",
+            "answer": "Kraków",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1753",
+            "question": "Who was born first out of Matteo Mancosu and Yoon Jong-Hoon?",
+            "answer": "Yoon Jong-Hoon",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12163",
+            "question": "Which film whose director is younger, Gypped In The Penthouse or A Summer'S Tale?",
+            "answer": "A Summer'S Tale",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2546",
+            "question": "Which film has the director who died later, Paper Bullets or Karakolda Ayna Var?",
+            "answer": "Karakolda Ayna Var",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4462",
+            "question": "Which film came out first, P.K.P. (Pilsudski Bought Petliura) or Nalla Idathu Sammandham?",
+            "answer": "P.K.P. (Pilsudski Bought Petliura)",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4616",
+            "question": "Who was born later, Norman Hay Forbes or Bruno Foucher?",
+            "answer": "Bruno Foucher",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9909",
+            "question": "Which film has the director who died later, Spring In A Small Town or Cannibal Tours?",
+            "answer": "Cannibal Tours",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3450",
+            "question": "Which magazine came out first, Tit-Bits or Illustreret Nyhedsblad?",
+            "answer": "Illustreret Nyhedsblad",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11757",
+            "question": "Are both Unity Station and Saskatoon Station (Canadian Pacific Railway) located in the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5617",
+            "question": "Are Nastia Liukin and Alice Gerstenberg both from the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3335",
+            "question": "Which film was released more recently, Sikuru Hathe or Daughters, Daughters?",
+            "answer": "Sikuru Hathe",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11263",
+            "question": "Where was the director of film Politics Of Love born?",
+            "answer": "Toronto, Ontario",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10391",
+            "question": "Who is the spouse of the performer of song Everybody Loves You Now?",
+            "answer": "Alexis Roderick",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4325",
+            "question": "Who was born later, Alena Stolzová or Ibrahim Al-Saqqar?",
+            "answer": "Ibrahim Al-Saqqar",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8280",
+            "question": "Who is the father of George, Emperor Of Trebizond?",
+            "answer": "Manuel I of Trebizond",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8004",
+            "question": "Which film was released more recently, Unseen Forces or The Twilight Saga: Breaking Dawn – Part 1?",
+            "answer": "The Twilight Saga: Breaking Dawn – Part 1",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4114",
+            "question": "Who was born earlier, Kothapalli Jayashankar or Roberto Magris?",
+            "answer": "Kothapalli Jayashankar",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "832",
+            "question": "Who is Ailwyn Fellowes, 1St Baron Ailwyn's paternal grandfather?",
+            "answer": "William Henry Fellowes",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1512",
+            "question": "Are both Pender Harbour Water Aerodrome and Kangiqsujuaq (Wakeham Bay) Airport located in the same country?",
+            "answer": "yes",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10392",
+            "question": "Which film came out first, ...And God Created Them or The Little Shop Of Horrors?",
+            "answer": "The Little Shop Of Horrors",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4533",
+            "question": "What is the place of birth of the director of film It'S The Rage (Film)?",
+            "answer": "American",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "722",
+            "question": "Which film has the director died later, Taipei Story or The Ballad Of Cossack Golota?",
+            "answer": "Taipei Story",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "58",
+            "question": "Which country the director of film Daadagiri is from?",
+            "answer": "Pakistan",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5464",
+            "question": "Where was the husband of Princess Maria Immaculata Of Bourbon-Two Sicilies (1844–1899) born?",
+            "answer": "Florence",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2143",
+            "question": "Who is the paternal grandfather of Johann, Count Of Cleves?",
+            "answer": "Dietrich VI, Count of Cleves",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10438",
+            "question": "Who is the father of the performer of song Theme From New York, New York?",
+            "answer": "Vincente Minnelli",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4291",
+            "question": "Does Shunya Yoshimi have the same nationality as Lily Van Den Broecke?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2647",
+            "question": "Who died first, Gustav Philipp Mörl or Giuseppe Diotti?",
+            "answer": "Gustav Philipp Mörl",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12144",
+            "question": "Which film has the director who was born first, Hell Up In Harlem or The Soviet Story?",
+            "answer": "Hell Up In Harlem",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7239",
+            "question": "Who was born earlier, Agustín Lavezzi or Jean Guillaume Audinet-Serville?",
+            "answer": "Jean Guillaume Audinet-Serville",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9038",
+            "question": "What is the date of death of Christopher Bathurst, 3Rd Viscount Bledisloe's father?",
+            "answer": "17 September 1979",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11561",
+            "question": "Where was the place of death of the performer of song Dream-A-Lot'S Theme (I Will Live For Love)?",
+            "answer": "Naples",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7007",
+            "question": "Where did the director of film Barakat! study?",
+            "answer": "Institut des hautes études cinématographiques",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9189",
+            "question": "Which country the performer of song Sweet Leilani is from?",
+            "answer": "America",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "158",
+            "question": "Which film was released first, The Beginning Or The End or Hold Back The Night?",
+            "answer": "The Beginning Or The End",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1232",
+            "question": "Who is the spouse of the director of film Soldier (1998 American Film)?",
+            "answer": "Milla",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11321",
+            "question": "Which film has the director who is older than the other, A Dangerous Woman (1993 Film) or Emmy Of Stork'S Nest? ",
+            "answer": "Emmy Of Stork'S Nest",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2442",
+            "question": "Which country the director of film Hollow (2014 Film) is from?",
+            "answer": "America",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "8938",
+            "question": "Who died first, Christopher Monck, 2Nd Duke Of Albemarle or Chang Kyou-Chul?",
+            "answer": "Christopher Monck, 2Nd Duke Of Albemarle",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "590",
+            "question": "What is the date of death of Matilda Of Boulogne, Duchess Of Brabant's mother?",
+            "answer": "25 July 1182",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6049",
+            "question": "Which film has the director who died later, Gang Bullets or Day Of The Idiots?",
+            "answer": "Day Of The Idiots",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9543",
+            "question": "Who is the spouse of the director of film One, But A Lion!?",
+            "answer": "Karin Molander",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9052",
+            "question": "Where was the performer of song Old Money (Lana Del Rey Song) born?",
+            "answer": "New York",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2426",
+            "question": "Which film has the director died earlier, Il Disertore or The Battle Of Algiers?",
+            "answer": "The Battle Of Algiers",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "7041",
+            "question": "When did Bud Roper's father die?",
+            "answer": "April 30, 1971",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2088",
+            "question": "Which country the performer of song Gå Och Göm Dig, Åke Tråk is from?",
+            "answer": "Sweden",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "685",
+            "question": "Where does the director of film Podokkhep work at?",
+            "answer": "Florida Atlantic",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5050",
+            "question": "Which film has the director who died later, Elle Boit Pas, Elle Fume Pas, Elle Drague Pas, Mais... Elle Cause ! or The Very Eye Of Night?",
+            "answer": "Elle Boit Pas, Elle Fume Pas, Elle Drague Pas, Mais... Elle Cause !",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5974",
+            "question": "Who is the spouse of the director of film Aladdin Aur Jadui Chirag?",
+            "answer": "Fearless Nadia",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "653",
+            "question": "Who is the father-in-law of Ri Sol-Ju?",
+            "answer": "Kim Jong-il",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5862",
+            "question": "Which film has the director who is older than the other, Blue Blood And Red or The Longshot? ",
+            "answer": "Blue Blood And Red",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3441",
+            "question": "Are the bands Attitude Adjustment and Blue (English Group), from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11174",
+            "question": "Who was born later, Victor Bangert or Simone Fontecchio?",
+            "answer": "Simone Fontecchio",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4088",
+            "question": "What is the place of birth of the director of film The Trail Of The Lonesome Pine (1923 Film)?",
+            "answer": "Richmond",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10927",
+            "question": "Who was born later, John Milton Mackie or Marion Gray?",
+            "answer": "Marion Gray",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1684",
+            "question": "Which film came out earlier, The Gentle Gunman or A Maori Maid'S Love?",
+            "answer": "A Maori Maid'S Love",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5794",
+            "question": "Where was the director of film Poison Ivy: The New Seduction born?",
+            "answer": "L.A.",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "9173",
+            "question": "Which film has the director who is older than the other, Target Zero or A Midnight Clear? ",
+            "answer": "Target Zero",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10168",
+            "question": "When did Charles Sackville-West, 6Th Earl De La Warr's father die?",
+            "answer": "23 February 1869",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12279",
+            "question": "Which film has the director died later, Struggle For Eagle Peak or Einer Spinnt Immer?",
+            "answer": "Einer Spinnt Immer",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2532",
+            "question": "Where does Douglas Gresham's father work at?",
+            "answer": "Magdalen College",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "3878",
+            "question": "Which film has the director who died earlier, Precocious Youth or Three Girls About Town?",
+            "answer": "Precocious Youth",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2662",
+            "question": "Which film whose director is younger, The Pulse Of Life or The Hungover Games?",
+            "answer": "The Hungover Games",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2900",
+            "question": "Who is the paternal grandfather of Princess Yasmin Aga Khan?",
+            "answer": "Aga Khan III",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6755",
+            "question": "Which film has the director born later, Barbarosa or Stories Of The Revolution?",
+            "answer": "Barbarosa",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "406",
+            "question": "What is the place of birth of the creator of Miss Seventeen?",
+            "answer": "Tehran",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2938",
+            "question": "Who was born later, Tyreek Burwell or Eric Boulton?",
+            "answer": "Tyreek Burwell",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12067",
+            "question": "Who was born first, Cornelis Gijsbert Gerrit Jan Van Steenis or Tarsem King, Baron King Of West Bromwich?",
+            "answer": "Cornelis Gijsbert Gerrit Jan Van Steenis",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "5442",
+            "question": "Who was born first, Dennis E. Nolan or Humberto Anguiano?",
+            "answer": "Dennis E. Nolan",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "6745",
+            "question": "What is the place of birth of Zhu Gaoxu's father?",
+            "answer": "Nanjing",
+            "level": "hard",
+            "type": "compositional",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "10975",
+            "question": "Which film was released more recently, The Petty Girl or Pulijanmam?",
+            "answer": "Pulijanmam",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "12043",
+            "question": "Who is Louis Armand I, Prince Of Conti's father?",
+            "answer": "Armand de Bourbon, Prince of Conti",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "4065",
+            "question": "Who is Philibert I, Duke Of Savoy's mother-in-law?",
+            "answer": "Bona of Savoy",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "2608",
+            "question": "Which film has the director born first, Jackass 3D or De Damescoupeur?",
+            "answer": "De Damescoupeur",
+            "level": "hard",
+            "type": "bridge_comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "11489",
+            "question": "Are Nancy Drew… Trouble Shooter and Wilderness (Miniseries) both from the same country?",
+            "answer": "no",
+            "level": "hard",
+            "type": "comparison",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        },
+        {
+            "id": "1771",
+            "question": "Who is Jan Iii Of Oświęcim's paternal grandfather?",
+            "answer": "Jan I the Scholastic",
+            "level": "hard",
+            "type": "inference",
+            "dataset_name": "2wikimultihopqa",
+            "split": "test"
+        }
+    ]
+}
