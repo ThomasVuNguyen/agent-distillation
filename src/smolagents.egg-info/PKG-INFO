@@ -1,3 +1,81 @@
+Metadata-Version: 2.4
+Name: smolagents
+Version: 1.13.0.dev0
+Summary: 🤗 smolagents: a barebones library for agents. Agents write python code to call tools or orchestrate other agents.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: huggingface-hub>=0.28.0
+Requires-Dist: requests>=2.32.3
+Requires-Dist: rich>=13.9.4
+Requires-Dist: jinja2>=3.1.4
+Requires-Dist: pillow>=11.0.0
+Requires-Dist: markdownify>=0.14.1
+Requires-Dist: duckduckgo-search>=6.3.7
+Requires-Dist: python-dotenv
+Provides-Extra: distill
+Requires-Dist: torch; extra == "distill"
+Requires-Dist: openai>=1.58.1; extra == "distill"
+Requires-Dist: vllm; extra == "distill"
+Requires-Dist: trl; extra == "distill"
+Requires-Dist: numpy>=1.21.2; extra == "distill"
+Provides-Extra: torch
+Requires-Dist: torch; extra == "torch"
+Requires-Dist: torchvision; extra == "torch"
+Requires-Dist: numpy>=1.21.2; extra == "torch"
+Provides-Extra: audio
+Requires-Dist: soundfile; extra == "audio"
+Requires-Dist: smolagents[torch]; extra == "audio"
+Provides-Extra: docker
+Requires-Dist: docker>=7.1.0; extra == "docker"
+Requires-Dist: websocket-client; extra == "docker"
+Provides-Extra: e2b
+Requires-Dist: e2b-code-interpreter>=1.0.3; extra == "e2b"
+Requires-Dist: python-dotenv>=1.0.1; extra == "e2b"
+Provides-Extra: gradio
+Requires-Dist: gradio>=5.13.2; extra == "gradio"
+Provides-Extra: litellm
+Requires-Dist: litellm>=1.60.2; extra == "litellm"
+Provides-Extra: mcp
+Requires-Dist: mcpadapt>=0.0.15; extra == "mcp"
+Requires-Dist: mcp; extra == "mcp"
+Provides-Extra: mlx-lm
+Requires-Dist: mlx-lm; extra == "mlx-lm"
+Provides-Extra: openai
+Requires-Dist: openai>=1.58.1; extra == "openai"
+Provides-Extra: telemetry
+Requires-Dist: arize-phoenix; extra == "telemetry"
+Requires-Dist: opentelemetry-sdk; extra == "telemetry"
+Requires-Dist: opentelemetry-exporter-otlp; extra == "telemetry"
+Requires-Dist: openinference-instrumentation-smolagents>=0.1.4; extra == "telemetry"
+Provides-Extra: transformers
+Requires-Dist: accelerate; extra == "transformers"
+Requires-Dist: transformers>=4.0.0; extra == "transformers"
+Requires-Dist: smolagents[torch]; extra == "transformers"
+Provides-Extra: vision
+Requires-Dist: helium; extra == "vision"
+Requires-Dist: selenium; extra == "vision"
+Provides-Extra: vllm
+Requires-Dist: vllm; extra == "vllm"
+Requires-Dist: torch; extra == "vllm"
+Provides-Extra: all
+Requires-Dist: smolagents[audio,docker,e2b,gradio,litellm,mcp,mlx-lm,openai,telemetry,transformers,vision]; extra == "all"
+Provides-Extra: quality
+Requires-Dist: ruff>=0.9.0; extra == "quality"
+Provides-Extra: test
+Requires-Dist: ipython>=8.31.0; extra == "test"
+Requires-Dist: pandas>=2.2.3; extra == "test"
+Requires-Dist: pytest>=8.1.0; extra == "test"
+Requires-Dist: pytest-datadir; extra == "test"
+Requires-Dist: python-dotenv>=1.0.1; extra == "test"
+Requires-Dist: smolagents[all]; extra == "test"
+Requires-Dist: rank-bm25; extra == "test"
+Requires-Dist: Wikipedia-API>=0.8.1; extra == "test"
+Provides-Extra: dev
+Requires-Dist: smolagents[quality,test]; extra == "dev"
+Requires-Dist: sqlalchemy; extra == "dev"
+Dynamic: license-file
+
 # Agent Distillation
 
 <p align="center">
@@ -39,8 +117,6 @@ pip install -e .[distill]
 ```
 
 > Note: If you want to run benchmarking, place your OpenAI API key in a file at `keys/openai-key/key.env`. This is required for LLM-as-a-judge evaluation on factual reasoning benchmarks.
->
-> For Cloudflare Workers AI integration, place your Cloudflare API key in `keys/cloudflare-key/key.env` and your account ID in `keys/cloudflare-key/account_id.env`.
 
 ### ➕ Optional: Retriever Environment (used in our paper)
 
@@ -80,39 +156,13 @@ gzip -d $save_path/wiki-18.jsonl.gz
 
 ## ⚗️ Quickstart: How to Distill Agents
 
-All default scripts assume access to 4 GPUs, but we also provide cloud-based alternatives.
+All scripts assume access to 4 GPUs.
 
 1. 🧪 Generate Trajectories from Teacher Agent
 
-   **Option A: Using Local GPUs**
-
-   ```bash
-   bash scripts/inference/run_agent_teacher_train.sh
-   ```
-
-   **Option B: Using Cloudflare Workers AI (no local GPUs required)**
-   
-   This option uses Cloudflare Workers AI to run the teacher model inference in the cloud, eliminating the need for local GPUs and simplifying the setup process.
-   
-   ```bash
-   # Use Cloudflare Workers AI for teacher model inference (default: llama-3.1-70b-instruct)
-   bash scripts/inference/run_cloudflare_inference.sh
-   
-   # You can customize with options
-   bash scripts/inference/run_cloudflare_inference.sh --model="@cf/meta/llama-3.1-70b-instruct" --temperature=0.0 --workers=4
-   
-   # Use smaller model for faster processing
-   bash scripts/inference/run_cloudflare_inference.sh --model="@cf/meta/llama-3-8b-instruct"
-   
-   # Enable first-thought prefix
-   bash scripts/inference/run_cloudflare_inference.sh --use-prefix
-   ```
-   
-   > **Note on model formats**: Cloudflare Workers AI uses specific model identifiers. The 70B model uses the format `@cf/meta/llama-3.1-70b-instruct` (with `.1`), while the 8B model uses `@cf/meta/llama-3-8b-instruct` (without `.1`). 
-   
-   The script will process each dataset and save results to `logs/qa_results/cloudflare/[model_name]/[dataset]_[date]`. After generating trajectories with Cloudflare Workers AI, you can continue with the standard training and evaluation steps below.
-   
-   For more detailed information about the Cloudflare Workers AI integration, see [docs/cloudflare_integration.md](docs/cloudflare_integration.md).
+```bash
+bash scripts/inference/run_agent_teacher_train.sh
+```
 
 2. 🎓 Train the Student Agent
 

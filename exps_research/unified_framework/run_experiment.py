@@ -35,7 +35,7 @@ def run_experiment():
 
     # Common arguments
     parser.add_argument("--data_path", type=str, required=True, help="Path to the dataset file")
-    parser.add_argument("--model_type", type=str, default="openai", choices=["openai", "vllm"],
+    parser.add_argument("--model_type", type=str, default="openai", choices=["openai", "vllm", "cloudflare"],
                       help="Type of model to use for generation")
     parser.add_argument("--model_id", type=str, help="Specific model ID to use (e.g., gpt-4o-mini, gpt-4o)")
     parser.add_argument("--parallel_workers", type=int, default=4, help="Maximum number of concurrent threads to use")

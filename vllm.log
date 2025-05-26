@@ -1,0 +1,188 @@
+Executing command: vllm serve Qwen/Qwen2.5-32B-Instruct --host 0.0.0.0 --port 8000 --dtype auto --api-key token-abc --gpu-memory-utilization 0.9 --tensor-parallel-size 4 --generation-config vllm
+INFO 05-26 18:53:34 [__init__.py:239] Automatically detected platform cuda.
+INFO 05-26 18:53:37 [api_server.py:1043] vLLM API server version 0.8.5.post1
+INFO 05-26 18:53:37 [api_server.py:1044] args: Namespace(subparser='serve', model_tag='Qwen/Qwen2.5-32B-Instruct', config='', host='0.0.0.0', port=8000, uvicorn_log_level='info', disable_uvicorn_access_log=False, allow_credentials=False, allowed_origins=['*'], allowed_methods=['*'], allowed_headers=['*'], api_key='token-abc', lora_modules=None, prompt_adapters=None, chat_template=None, chat_template_content_format='auto', response_role='assistant', ssl_keyfile=None, ssl_certfile=None, ssl_ca_certs=None, enable_ssl_refresh=False, ssl_cert_reqs=0, root_path=None, middleware=[], return_tokens_as_token_ids=False, disable_frontend_multiprocessing=False, enable_request_id_headers=False, enable_auto_tool_choice=False, tool_call_parser=None, tool_parser_plugin='', model='Qwen/Qwen2.5-32B-Instruct', task='auto', tokenizer=None, hf_config_path=None, skip_tokenizer_init=False, revision=None, code_revision=None, tokenizer_revision=None, tokenizer_mode='auto', trust_remote_code=False, allowed_local_media_path=None, load_format='auto', download_dir=None, model_loader_extra_config={}, use_tqdm_on_load=True, config_format=<ConfigFormat.AUTO: 'auto'>, dtype='auto', max_model_len=None, guided_decoding_backend='auto', reasoning_parser=None, logits_processor_pattern=None, model_impl='auto', distributed_executor_backend=None, pipeline_parallel_size=1, tensor_parallel_size=4, data_parallel_size=1, enable_expert_parallel=False, max_parallel_loading_workers=None, ray_workers_use_nsight=False, disable_custom_all_reduce=False, block_size=None, gpu_memory_utilization=0.9, swap_space=4, kv_cache_dtype='auto', num_gpu_blocks_override=None, enable_prefix_caching=None, prefix_caching_hash_algo='builtin', cpu_offload_gb=0, calculate_kv_scales=False, disable_sliding_window=False, use_v2_block_manager=True, seed=None, max_logprobs=20, disable_log_stats=False, quantization=None, rope_scaling=None, rope_theta=None, hf_token=None, hf_overrides=None, enforce_eager=False, max_seq_len_to_capture=8192, tokenizer_pool_size=0, tokenizer_pool_type='ray', tokenizer_pool_extra_config={}, limit_mm_per_prompt={}, mm_processor_kwargs=None, disable_mm_preprocessor_cache=False, enable_lora=None, enable_lora_bias=False, max_loras=1, max_lora_rank=16, lora_extra_vocab_size=256, lora_dtype='auto', long_lora_scaling_factors=None, max_cpu_loras=None, fully_sharded_loras=False, enable_prompt_adapter=None, max_prompt_adapters=1, max_prompt_adapter_token=0, device='auto', speculative_config=None, ignore_patterns=[], served_model_name=None, qlora_adapter_name_or_path=None, show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, disable_async_output_proc=False, max_num_batched_tokens=None, max_num_seqs=None, max_num_partial_prefills=1, max_long_partial_prefills=1, long_prefill_token_threshold=0, num_lookahead_slots=0, scheduler_delay_factor=0.0, preemption_mode=None, num_scheduler_steps=1, multi_step_stream_outputs=True, scheduling_policy='fcfs', enable_chunked_prefill=None, disable_chunked_mm_input=False, scheduler_cls='vllm.core.scheduler.Scheduler', override_neuron_config=None, override_pooler_config=None, compilation_config=None, kv_transfer_config=None, worker_cls='auto', worker_extension_cls='', generation_config='vllm', override_generation_config=None, enable_sleep_mode=False, additional_config=None, enable_reasoning=False, disable_cascade_attn=False, disable_log_requests=False, max_log_len=None, disable_fastapi_docs=False, enable_prompt_tokens_details=False, enable_server_load_tracking=False, dispatch_function=<function ServeSubcommand.cmd at 0x78ed3d4eee80>)
+INFO 05-26 18:53:44 [config.py:717] This model supports multiple tasks: {'classify', 'generate', 'reward', 'score', 'embed'}. Defaulting to 'generate'.
+WARNING 05-26 18:53:44 [arg_utils.py:1658] Compute Capability < 8.0 is not supported by the V1 Engine. Falling back to V0. 
+INFO 05-26 18:53:44 [config.py:1770] Defaulting to use ray for distributed inference
+WARNING 05-26 18:53:44 [config.py:1443] Possibly too large swap space. 16.00 GiB out of the 23.34 GiB total CPU memory is allocated for the swap space.
+INFO 05-26 18:53:44 [api_server.py:246] Started engine process with PID 629624
+INFO 05-26 18:53:48 [__init__.py:239] Automatically detected platform cuda.
+INFO 05-26 18:53:50 [llm_engine.py:240] Initializing a V0 LLM engine (v0.8.5.post1) with config: model='Qwen/Qwen2.5-32B-Instruct', speculative_config=None, tokenizer='Qwen/Qwen2.5-32B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=4, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto,  device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='auto', reasoning_backend=None), observability_config=ObservabilityConfig(show_hidden_metrics=False, otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=None, served_model_name=Qwen/Qwen2.5-32B-Instruct, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=True, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[256,248,240,232,224,216,208,200,192,184,176,168,160,152,144,136,128,120,112,104,96,88,80,72,64,56,48,40,32,24,16,8,4,2,1],"max_capture_size":256}, use_cached_outputs=True, 
+2025-05-26 18:53:52,518	INFO worker.py:1888 -- Started a local Ray instance.
+INFO 05-26 18:53:53 [ray_utils.py:335] No current placement group found. Creating a new placement group.
+WARNING 05-26 18:53:53 [ray_utils.py:342] The number of required GPUs exceeds the total number of available GPUs in the placement group.
+INFO 05-26 18:54:03 [ray_utils.py:233] Waiting for creating a placement group of specs for 10 seconds. specs=[{'node:10.0.0.175': 0.001, 'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}]. Check `ray status` and `ray list nodes` to see if you have enough resources, and make sure the IP addresses used by ray cluster are the same as VLLM_HOST_IP environment variable specified in each node if you are running on a multi-node.
+INFO 05-26 18:54:23 [ray_utils.py:233] Waiting for creating a placement group of specs for 30 seconds. specs=[{'node:10.0.0.175': 0.001, 'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}]. Check `ray status` and `ray list nodes` to see if you have enough resources, and make sure the IP addresses used by ray cluster are the same as VLLM_HOST_IP environment variable specified in each node if you are running on a multi-node.
+INFO 05-26 18:55:03 [ray_utils.py:233] Waiting for creating a placement group of specs for 70 seconds. specs=[{'node:10.0.0.175': 0.001, 'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}]. Check `ray status` and `ray list nodes` to see if you have enough resources, and make sure the IP addresses used by ray cluster are the same as VLLM_HOST_IP environment variable specified in each node if you are running on a multi-node.
+INFO 05-26 18:56:23 [ray_utils.py:233] Waiting for creating a placement group of specs for 150 seconds. specs=[{'node:10.0.0.175': 0.001, 'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}, {'GPU': 1.0}]. Check `ray status` and `ray list nodes` to see if you have enough resources, and make sure the IP addresses used by ray cluster are the same as VLLM_HOST_IP environment variable specified in each node if you are running on a multi-node.
+*** SIGTERM received at time=1748300290 on cpu 8 ***
+PC: @     0x7a30bba98d71  (unknown)  (unknown)
+    @     0x7a30bba45330  1867120128  (unknown)
+    @     0x7a30bba9bc8e        224  pthread_cond_timedwait
+    @     0x7a2fb123629f       1184  ray::core::GetRequest::Wait()
+    @     0x7a2fb1238d67       1424  ray::core::CoreWorkerMemoryStore::GetImpl()
+    @     0x7a2fb1239fe7       1360  ray::core::CoreWorkerMemoryStore::Wait()
+    @     0x7a2fb1155a10       1776  ray::core::CoreWorker::Wait()
+    @     0x7a2fb1051460        352  __pyx_pw_3ray_7_raylet_10CoreWorker_61wait()
+    @           0x549b85         32  PyObject_Vectorcall
+    @           0x5d73c9        384  _PyEval_EvalFrameDefault
+    @           0x54cd94        160  (unknown)
+    @           0x54b3b5         96  PyObject_Call
+    @           0x5db55b        384  _PyEval_EvalFrameDefault
+    @           0x54aa9a        176  _PyObject_Call_Prepend
+    @           0x59e09f        112  (unknown)
+    @           0x599b63         48  (unknown)
+    @           0x54924e         80  _PyObject_MakeTpCall
+    @           0x5d73c9        384  _PyEval_EvalFrameDefault
+    @           0x54aa9a        176  _PyObject_Call_Prepend
+    @           0x59e09f        112  (unknown)
+    @           0x599b63         48  (unknown)
+    @           0x54b30c         96  PyObject_Call
+    @           0x5db55b        384  _PyEval_EvalFrameDefault
+    @           0x54aa9a        176  _PyObject_Call_Prepend
+    @           0x59e09f        112  (unknown)
+    @           0x599b63         48  (unknown)
+    @           0x54924e         80  _PyObject_MakeTpCall
+    @           0x5d73c9        384  _PyEval_EvalFrameDefault
+    @           0x5d58eb        128  PyEval_EvalCode
+    @           0x608a23         80  PyRun_StringFlags
+    @           0x6b3e9e         32  PyRun_SimpleStringFlags
+    @           0x6bcb61        288  Py_RunMain
+    @           0x6bc57d         48  Py_BytesMain
+    @ ... and at least 3 more frames
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496: *** SIGTERM received at time=1748300290 on cpu 8 ***
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496: PC: @     0x7a30bba98d71  (unknown)  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a30bba45330  1867120128  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a30bba9bc8e        224  pthread_cond_timedwait
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a2fb123629f       1184  ray::core::GetRequest::Wait()
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a2fb1238d67       1424  ray::core::CoreWorkerMemoryStore::GetImpl()
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a2fb1239fe7       1360  ray::core::CoreWorkerMemoryStore::Wait()
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a2fb1155a10       1776  ray::core::CoreWorker::Wait()
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @     0x7a2fb1051460        352  __pyx_pw_3ray_7_raylet_10CoreWorker_61wait()
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x549b85         32  PyObject_Vectorcall
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x5d73c9        384  _PyEval_EvalFrameDefault
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54cd94        160  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54b3b5         96  PyObject_Call
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x5db55b        384  _PyEval_EvalFrameDefault
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54aa9a        176  _PyObject_Call_Prepend
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x59e09f        112  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x599b63         48  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54924e         80  _PyObject_MakeTpCall
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x5d73c9        384  _PyEval_EvalFrameDefault
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54aa9a        176  _PyObject_Call_Prepend
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x59e09f        112  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x599b63         48  (unknown)
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54b30c         96  PyObject_Call
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x5db55b        384  _PyEval_EvalFrameDefault
+[2025-05-26 18:58:10,599 E 629624 629624] logging.cc:496:     @           0x54aa9a        176  _PyObject_Call_Prepend
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x59e09f        112  (unknown)
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x599b63         48  (unknown)
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x54924e         80  _PyObject_MakeTpCall
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x5d73c9        384  _PyEval_EvalFrameDefault
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x5d58eb        128  PyEval_EvalCode
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x608a23         80  PyRun_StringFlags
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x6b3e9e         32  PyRun_SimpleStringFlags
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x6bcb61        288  Py_RunMain
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @           0x6bc57d         48  Py_BytesMain
+[2025-05-26 18:58:10,600 E 629624 629624] logging.cc:496:     @ ... and at least 3 more frames
+ERROR 05-26 18:58:11 [engine.py:448] 15
+ERROR 05-26 18:58:11 [engine.py:448] Traceback (most recent call last):
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/ray/_private/worker.py", line 3053, in wait
+ERROR 05-26 18:58:11 [engine.py:448]     ready_ids, remaining_ids = worker.core_worker.wait(
+ERROR 05-26 18:58:11 [engine.py:448]                                ^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "python/ray/_raylet.pyx", line 3514, in ray._raylet.CoreWorker.wait
+ERROR 05-26 18:58:11 [engine.py:448]   File "python/ray/includes/common.pxi", line 83, in ray._raylet.check_status
+ERROR 05-26 18:58:11 [engine.py:448] KeyboardInterrupt
+ERROR 05-26 18:58:11 [engine.py:448] 
+ERROR 05-26 18:58:11 [engine.py:448] During handling of the above exception, another exception occurred:
+ERROR 05-26 18:58:11 [engine.py:448] 
+ERROR 05-26 18:58:11 [engine.py:448] Traceback (most recent call last):
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/multiprocessing/engine.py", line 436, in run_mp_engine
+ERROR 05-26 18:58:11 [engine.py:448]     engine = MQLLMEngine.from_vllm_config(
+ERROR 05-26 18:58:11 [engine.py:448]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/multiprocessing/engine.py", line 128, in from_vllm_config
+ERROR 05-26 18:58:11 [engine.py:448]     return cls(
+ERROR 05-26 18:58:11 [engine.py:448]            ^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/multiprocessing/engine.py", line 82, in __init__
+ERROR 05-26 18:58:11 [engine.py:448]     self.engine = LLMEngine(*args, **kwargs)
+ERROR 05-26 18:58:11 [engine.py:448]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/llm_engine.py", line 275, in __init__
+ERROR 05-26 18:58:11 [engine.py:448]     self.model_executor = executor_class(vllm_config=vllm_config)
+ERROR 05-26 18:58:11 [engine.py:448]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/executor/executor_base.py", line 286, in __init__
+ERROR 05-26 18:58:11 [engine.py:448]     super().__init__(*args, **kwargs)
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/executor/executor_base.py", line 52, in __init__
+ERROR 05-26 18:58:11 [engine.py:448]     self._init_executor()
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/executor/ray_distributed_executor.py", line 105, in _init_executor
+ERROR 05-26 18:58:11 [engine.py:448]     initialize_ray_cluster(self.parallel_config)
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/executor/ray_utils.py", line 370, in initialize_ray_cluster
+ERROR 05-26 18:58:11 [engine.py:448]     _wait_until_pg_ready(current_placement_group)
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/executor/ray_utils.py", line 227, in _wait_until_pg_ready
+ERROR 05-26 18:58:11 [engine.py:448]     ready, _ = ray.wait([pg_ready_ref], timeout=wait_interval)
+ERROR 05-26 18:58:11 [engine.py:448]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/ray/_private/auto_init_hook.py", line 21, in auto_init_wrapper
+ERROR 05-26 18:58:11 [engine.py:448]     return fn(*args, **kwargs)
+ERROR 05-26 18:58:11 [engine.py:448]            ^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/ray/_private/client_mode_hook.py", line 103, in wrapper
+ERROR 05-26 18:58:11 [engine.py:448]     return func(*args, **kwargs)
+ERROR 05-26 18:58:11 [engine.py:448]            ^^^^^^^^^^^^^^^^^^^^^
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/ray/_private/worker.py", line 3034, in wait
+ERROR 05-26 18:58:11 [engine.py:448]     with profiling.profile("ray.wait"):
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/ray/_private/profiling.py", line 16, in __exit__
+ERROR 05-26 18:58:11 [engine.py:448]     def __exit__(self, type, value, tb):
+ERROR 05-26 18:58:11 [engine.py:448]     
+ERROR 05-26 18:58:11 [engine.py:448]   File "/root/agent-distillation/myenv/lib/python3.12/site-packages/ray/_private/worker.py", line 1539, in sigterm_handler
+ERROR 05-26 18:58:11 [engine.py:448]     sys.exit(signum)
+ERROR 05-26 18:58:11 [engine.py:448] SystemExit: 15
+INFO 05-26 18:58:11 [ray_distributed_executor.py:127] Shutting down Ray distributed executor. If you see error log from logging.cc regarding SIGTERM received, please ignore because this is the expected termination process in Ray.
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/uvloop/__init__.py", line 61, in wrapper
+    return await main
+           ^^^^^^^^^^
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 1078, in run_server
+    async with build_async_engine_client(args) as engine_client:
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 146, in build_async_engine_client
+    async with build_async_engine_client_from_engine_args(
+  File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 264, in build_async_engine_client_from_engine_args
+    await mq_engine_client.setup()
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/multiprocessing/client.py", line 284, in setup
+    response = await self._wait_for_server_rpc(socket)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/multiprocessing/client.py", line 395, in _wait_for_server_rpc
+    return await self._send_get_data_rpc_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/engine/multiprocessing/client.py", line 320, in _send_get_data_rpc_request
+    if await socket.poll(timeout=VLLM_RPC_TIMEOUT) == 0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/agent-distillation/myenv/bin/vllm", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/entrypoints/cli/main.py", line 53, in main
+    args.dispatch_function(args)
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/vllm/entrypoints/cli/serve.py", line 27, in cmd
+    uvloop.run(run_server(args))
+  File "/root/agent-distillation/myenv/lib/python3.12/site-packages/uvloop/__init__.py", line 109, in run
+    return __asyncio.run(
+           ^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

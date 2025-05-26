@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/root/agent-distillation/search/retriever_server.py", line 7, in <module>
+    import faiss
+ModuleNotFoundError: No module named 'faiss'
