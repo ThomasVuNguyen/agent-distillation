@@ -6,7 +6,7 @@
 
 `agent-distillation` is a library that supports **distillation** of large language agents into small langauge models, with just a few scripts!
 
-This library accompanies our academic paper, **Distilling LLM Agents into Small Models with Retrieval and Code Tools**, where we demonstrate how small language models can learn to act like powerful LLM agents by mimicking their agentic behaviors, augmented with retrieval and code execution capabilities.
+This library accompanies our academic paper, [**Distilling LLM Agents into Small Models with Retrieval and Code Tools**](https://arxiv.org/abs/2505.17612), where we demonstrate how small language models can learn to act like powerful LLM agents by mimicking their agentic behaviors, augmented with retrieval and code execution capabilities.
 
 Built on top of [`smolagents` v1.13.0.dev0](https://github.com/huggingface/smolagents), this library supercharges the agent training pipeline with essential utilities for logging, training, and benchmarking, all optimized for simplicity and reproducibility.
 
